@@ -1,4 +1,5 @@
 import { Layout } from '@widgets/layout'
+import image from '../../assets/images/image.png'
 import './styles.css'
 
 export function SophophiliaPage() {
@@ -52,11 +53,7 @@ export function SophophiliaPage() {
             </p>
 
             <figure className="wiki-image">
-              <img
-                src="/images/image.png"
-                alt="Аллегорическое изображение мифа о Софе"
-                className="wiki-image-content"
-              />
+              <img src={image} alt="Аллегорическое изображение мифа о Софе" className="wiki-image-content" />
               <figcaption className="wiki-image-caption">
                 <div className="wiki-image-title">«Софа и её жертва»</div>
                 <div className="wiki-image-description">
